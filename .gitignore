@@ -1,0 +1,9 @@
+# Ignore Code Runner output files like 01_Pattern1, 01_Explicit_Conversion
+[0-9][0-9]_*
+
+# But DO NOT ignore the actual C++ files
+!*[0-9][0-9]_*.cpp
+
+# (optional) ignore Code Runner cache files
+coderunner*
+*.crun

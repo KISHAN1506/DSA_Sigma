@@ -64,6 +64,22 @@ public:
     bool empty(){
         return (vec.size() == 0);
     }
+
+};
+
+class Student{
+public:
+    string name;
+    int marks;
+
+    Student(string name,int marks){
+        this->name = name;
+        this->marks = marks;
+    }
+    // For Objects
+    bool operator < (const Student &obj) const{
+        return this->marks < obj.marks;
+    }
 };
 
 int main(){

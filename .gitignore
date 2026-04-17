@@ -7,3 +7,5 @@
 # (optional) ignore Code Runner cache files
 coderunner*
 *.crun
+
+.vscode
